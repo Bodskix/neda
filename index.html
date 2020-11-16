@@ -4,66 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:wght@700&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 </head>
 <body>
     <!-- --!! HEADER !!-- -->
-    <section class="wrapper">
-        <nav class="menu">
-            <div class="menu__logo">LAMPA MUSIC</div>
-            <div class="menu__items">
-                <a href="#" class="item-menu">HOME</a>
-                <a href="#" class="item-menu">SERVICES</a>
-                <a href="#" class="item-menu">PORTFOLIO</a>
-                <a href="#" class="item-menu">ABOUT</a>
-                <a href="#" class="item-menu">CONTACT</a>
+    <section id="middle" class="wrapper">
+        <header class="header">
+            <div class="conteiner">
+                <div class="header__body">
+                    <a href="" class="header__logo">
+                        <img src="/img/Lampa_slider123.jpg" alt="">
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li><a href="#middle" class="header__link">Главная</a></li>
+                            <li><a href="#service" class="header__link">Услуги</a></li>
+                            <li><a href="#portfolio" class="header__link">Фотогалерея</a></li>
+                            <li><a href="#team" class="header__link">Команда</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </nav>
-        <section class="section">
+        </header>
+        <div class="middle__tittle">
             <div class="about">
-                <h1 class="about__title">Welcome To Our Studio!</h1>
-                <div class="about__subtitle">It’s nice to Meet you</div>
+                <div class="about__title">Вокальная студия
+                <h1 class="about__subtitle">Lampa Music</h1>
+                <p class="about__subtitle-teg">#звучиярко</p>
+                </div>
             </div>
-        </section>
+        </div>
     </section>
     <!-- SERVICE -->
-    <section class="section-service">
-        <div class="serviceTop">
-            <div class="servicetop__title title">Услуги</div>
-            <div class="servicetop__subtitle suptitle">"что-то об услугах"</div>
-        </div>
-        <div class="serviceDown">
-            <div class="serviceDown__item">
-                <div class="serviceDown__logo">
-                    <img src="1serv.png" alt="">
-                </div>
-                <div class="serviceDown__title">Уроки вокала</div>
-                <div class="serviceDown__subtitle">Проводим индивидуальные и индивидуально-групповые занятия для подростков и взрослых разного уровня подготовки.</div>
-            </div>
-            <div class="serviceDown__item">
-                <div class="serviceDown__logo">
-                    <img src="2serv.png" alt="">
-                </div>
-                <div class="serviceDown__title">Профессиональная студия звукозаписи.
-                </div>
-                <div class="serviceDown__subtitle">У нас Вы всегда можете записать любой свой хит, стих или поздравление, а наши опытные наставники Вам в этом помогут.
-                </div>
-            </div>
-            <div class="serviceDown__item">
-                <div class="serviceDown__logo">
-                    <img src="3serv.png" alt="">
-                </div>
-                <div class="serviceDown__title">Концерты</div>
-                <div class="serviceDown__subtitle">Мечтаете о большой сцене? С нами это легко и выполнимо, ведь у нас в студии регулярно проходят творчески мероприятия и мы с радостью подготовим тебя для самого яркого выступления в твоей жизни!
-                </div>
-            </div>
+    <div id="service" class="serviceTop">
+        <div class="servicetop__title title">Услуги</div>
+        <section class="section-service">
             
-        </div>
-    </section>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container_vocal">
+                            <div class="ImjBOX">
+                                <img src="/img/Lampa_slider123.JPG">
+                            </div>
+                            <div class="vocal_details">
+                                <h3>Индивидуальные уроки вокала</h3>
+                            </div>
+                            <div class="price">300 Uah</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container_vocal">
+                            <div class="ImjBOX">
+                                <img src="/img/Lampa_slider123.JPG">
+                            </div>
+                            <div class="vocal_details">
+                                <h3>Индивидуальные уроки вокала</h3>
+                            </div>
+                            <div class="price">300 Uah</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container_vocal">
+                            <div class="ImjBOX">
+                                <img src="/img/Lampa_slider123.JPG">
+                            </div>
+                            <div class="vocal_details">
+                                <h3>Индивидуальные уроки вокала</h3>
+                            </div>
+                            <div class="price">300 Uah</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container_vocal">
+                            <div class="ImjBOX">
+                                <img src="/img/Lampa_slider123.JPG">
+                            </div>
+                            <div class="vocal_details">
+                                <h3>Индивидуальные уроки вокала</h3>
+                            </div>
+                            <div class="price">300 Uah</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container_vocal">
+                            <div class="ImjBOX">
+                                <img src="/img/Lampa_slider123.JPG">
+                            </div>
+                            <div class="vocal_details">
+                                <h3>Индивидуальные уроки вокала</h3>
+                            </div>
+                            <div class="price">300 Uah</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container_vocal">
+                            <div class="ImjBOX">
+                                <img src="/img/Lampa_slider123.JPG">
+                            </div>
+                            <div class="vocal_details">
+                                <h3>Индивидуальные уроки вокала</h3>
+                            </div>
+                            <div class="price">300 Uah</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container_vocal">
+                            <div class="ImjBOX">
+                                <img src="/img/Lampa_slider123.JPG">
+                            </div>
+                            <div class="vocal_details">
+                                <h3>Индивидуальные уроки вокала</h3>
+                            </div>
+                            <div class="price">300 Uah</div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+    </div>
     <!-- !!!PORTFOLIO!!!! -->
-    <section class="section-portfolio">
+    <section id="portfolio" class="section-portfolio">
         <div class="serviceTop">
             <div class="servicetop__title title">ФОТОГАЛЕРЕЯ</div>
             <div class="servicetop__subtitle suptitle"></div>
@@ -81,107 +150,139 @@
             </div>
         </div>
     </section> 
-    <section class="section-about">
-        <div class="about">
-            <div class="about__title1">О нас</div>
-            <div class="about__suptitle1"></div>
-        </div>
-        <div class="about__wrapper">
-            <div class="about__conteiner">
-                <div class="about__item">
-                    <div class="about__part1 normal"><span class="about__text"> Lampa Music – это дружная и профессиональная команда специалистов, для которых приоритет – это качественное обучение и развитие.</span>
-                    </div>
-                    <div class="about__part2 first__img"></div>
-                    <div class="about__part3"></div>
-                </div>
-                <div class="about__item">
-                    <div class="about__part1"></div>
-                    <div class="about__part2 second__img"></div>
-                    <div class="about__part3 revers"><span class="about__text">В нашей студии работаю только высококвалифицированные преподаватели, по самым эффективным методикам. Мы поможем новичку совершить первые шаги в музыке, а опытному вокалисту усилить свой вокальный потенциал.
-                    </span></div>
-                </div>
-                <div class="about__item">
-                    <div class="about__part1 normal"><span class="about__text">Самый лучший способ еще ближе узнать свой голос – это записать любимую композицию в студии звукозаписи! А наш звукорежиссер всегда подскажет и поможет сделать результат еще более ярким!
-                    </span></div>
-                    <div class="about__part2 third__img"></div>
-                    <div class="about__part3"></div>
-                </div>
-                <div class="about__item">
-                    <div class="about__part1"></div>
-                    <div class="about__part2 forth__img"></div>
-                    <div class="about__part3 revers"><span class="about__text">Наши музыкальные классы акустически правильно оборудованы, поэтому занятия у нас становятся еще более эффективными. 
-                    </span></div>
-                </div>
-                <div class="about__item">
-                    <div class="about__part1 normal"><span class="about__text">Наша студия находится в самом центре города – и это место, где ты можешь обрести интересные знакомства и новых друзей.
-                    </span></div>
-                    <div class="about__part2 five__img"></div>
-                    <div class="about__part3"></div>
-                </div>
+<!-- __________________________TEAM____________________________________ -->
+<div id="team" class="servicetop__title title">Команда</div>
+<section class="team">
+    <div class="conteiner_team">
+        <div class="box">
+            <div class="imgBxTM">
+                <img src="/img/аляфутболка.JPG" alt="">
             </div>
-        </div>       
-    </section>
+            <div class="about__text">
+                <div class="social">
+                    <div class="inst">
+                        <a href="#"><img src="/img/iconmonstr-instagram-3-32.png" alt=""></a>
+                    </div>
+                    <div class="face">
+                        <a href="#"><img src="/img/iconmonstr-facebook-3-32.png" alt=""></a>
+                    </div>
+                    <div class="telega">
+                        <a href="#"><img src="/img/iconmonstr-telegram-3-32.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="about__member">Алевтина</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBxTM">
+                <img src="/img/яна лампа.JPG" alt="">
+            </div>
+            <div class="about__text">
+                <div class="social">
+                    <div class="inst">
+                        <a href="#"><img src="/img/iconmonstr-instagram-3-32.png" alt=""></a>
+                    </div>
+                    <div class="face">
+                        <a href="#"> <img src="/img/iconmonstr-facebook-3-32.png" alt=""></a>
+                    </div>
+                    <div class="telega">
+                        <a href="#"> <img src="/img/iconmonstr-telegram-3-32.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="about__member">Яна</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBxTM">
+                <img src="/img/newgirl.jpg" alt="">
+            </div>
+            <div class="about__text">
+                <div class="social">
+                    <div class="inst">
+                        <a href="#"><img src="/img/iconmonstr-instagram-3-32.png" alt=""></a>
+                    </div>
+                    <div class="face">
+                        <a href="#"> <img src="/img/iconmonstr-facebook-3-32.png" alt=""></a>
+                    </div>
+                    <div class="telega">
+                        <a href="#"> <img src="/img/iconmonstr-telegram-3-32.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="about__member">Новенькая</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBxTM">
+                <img src="/img/олялампа.jpg" alt="">
+            </div>
+            <div class="about__text">
+                <div class="social">
+                    <div class="inst">
+                        <a href="#"><img src="/img/iconmonstr-instagram-3-32.png" alt=""></a>
+                    </div>
+                    <div class="face">
+                        <a href="#"><img src="/img/iconmonstr-facebook-3-32.png" alt=""></a>
+                    </div>
+                    <div class="telega">
+                        <a href="#"><img src="/img/iconmonstr-telegram-3-32.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="about__member">Оля</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBxTM">
+                <img src="/img/макслампа.jpg" alt="">
+            </div>
+            <div class="about__text">
+                <div class="social">
+                    <div class="inst">
+                        <a href="#"><img src="/img/iconmonstr-instagram-3-32.png" alt=""></a>
+                    </div>
+                    <div class="face">
+                        <a href="#"> <img src="/img/iconmonstr-facebook-3-32.png" alt=""></a>
+                    </div>
+                    <div class="telega">
+                        <a href="#"> <img src="/img/iconmonstr-telegram-3-32.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="about__member">Максим</div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+      autoplay: {
+          delay: 800,
+          disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+<script type="text/javascript">
+    window.addEventListener("scroll" , function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky" , window.scrollY > 0)
+    })
+</script>
+<script src="http://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="css/script.js"></script>
 
-    <section class="team">
-        <div class="about">
-            <h1 class="about__title about__team">Our team</h1>
-        </div>
-        <div class="team__conteiner">
-            <div class="team__owners">
-                <div class="owners__item">
-                    <div class="owners__conteiner">
-                        <div class="name">Alevtina Byvalina</div>
-                        <div class="owners__links">
-                            <a href="#" class="owners__link">1</a>
-                            <a href="#" class="owners__link">2</a>
-                            <a href="#" class="owners__link">3</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="owners__item">
-                    <div class="owners__conteiner">
-                        <div class="name">Alevtina Byvalina</div>
-                        <div class="owners__links">
-                            <a href="#" class="owners__link">1</a>
-                            <a href="#" class="owners__link">2</a>
-                            <a href="#" class="owners__link">3</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="team__couchs">
-                <div class="couchs__item">
-                    <div class="couchs__conteiner">
-                        <div class="name">Alevtina Byvalina</div>
-                        <div class="couchs__links">
-                            <a href="#" class="couchs__link">1</a>
-                            <a href="#" class="couchs__link">2</a>
-                            <a href="#" class="couchs__link">3</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="couchs__item">
-                    <div class="couchs__conteiner">
-                        <div class="name">Alevtina Byvalina</div>
-                        <div class="couchs__links">
-                            <a href="#" class="couchs__link">1</a>
-                            <a href="#" class="couchs__link">2</a>
-                            <a href="#" class="couchs__link">3</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="couchs__item">
-                    <div class="couchs__conteiner">
-                        <div class="name">Alevtina Byvalina</div>
-                        <div class="couchs__links">
-                            <a href="#" class="couchs__link">1</a>
-                            <a href="#" class="couchs__link">2</a>
-                            <a href="#" class="couchs__link">3</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
 </body>
 </html>
